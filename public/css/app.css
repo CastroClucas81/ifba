@@ -1,0 +1,233 @@
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+.navbar-item i {
+    margin-right: 4px;
+}
+
+.cardNoticias {
+    width: auto;
+    height: auto;
+    max-height: 15rem;
+    max-width: 15rem;
+}
+
+.cardInfo {
+    background-color: #e5e5e5;
+    border: 1px solid hsl(171, 100%, 41%);
+    padding: 10px;
+    padding-bottom: 3px;
+}
+
+.cardInfo .colunaImg {
+    text-align: center;
+}
+
+.cardInfo .btnEditar {
+    margin-right: 5px;
+}
+
+.cardInfo .colunaImg img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.cardInfo .btnsInfo {
+    margin-bottom: 7px;
+}
+
+.cardInfo .field {
+    margin-top: -12px;
+    margin-bottom: 5px;
+}
+
+.btnDetalhePost {
+    text-align: left;
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 1.5rem;
+}
+.btnDetalhePost:hover {
+    border-radius: 5px;
+    background-color: #d8d5d5;
+}
+
+.cardInfo .btnDetalhePost:hover {
+    border-radius: 5px;
+    background-color: #d8d5d5;
+}
+
+.modal .telaCarregamento {
+    margin-right: 5px;
+}
+
+.divCriarPostagem {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+.fab-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fab-icon-holder {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: hsl(204, 86%, 53%);
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fab-icon-holder:hover {
+    opacity: 0.8;
+}
+
+.fab-icon-holder:active {
+    opacity: 1;
+}
+
+.fab-icon-holder i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.fab {
+    width: 60px;
+    height: 60px;
+    background: hsl(171, 100%, 41%);
+}
+
+.fab-options {
+    list-style-type: none;
+    margin: 0;
+
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+
+    opacity: 0;
+
+    transition: all 0.5s ease;
+    transform: scale(0);
+    transform-origin: 85% bottom;
+}
+
+.fab:hover + .fab-options,
+.fab-options:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.fab-options li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.fab-label {
+    padding: 2px 5px;
+    align-self: center;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    font-size: 16px;
+    background: #666666;
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+}
+
+.btnMenuFlutuante {
+    width: 1rem;
+}
+
+.campoCidade {
+    width: auto;
+}
+
+.cmpEstado {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btnAdicionarRemoverMembro {
+    min-height: 72%;
+    margin-top: 2rem;
+}
+
+.containerMembrosTerritorio {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.containerMunicipios {
+    overflow-y: auto;
+    max-height: 50px;
+}
+
+.paginacao nav[role="navigation"] {
+    display: flex;
+}
+
+.paginacao nav[role="navigation"] span {
+    background-color: #dbdbdb;
+    border-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    box-shadow: none;
+    color: #7a7a7a;
+    opacity: 0.5;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.paginacao nav[role="navigation"] a {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin: 5px;
+}
+
+.paginacao nav[role="navigation"] a:hover {
+    background-color: #00d1b2;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+div .detalhePostLateral {
+    width: 64px;
+    height: 64px;
+}
+
+.detalhePostLateral img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
